@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <zone name="Leth Deriel" id="61">
   <node id="1" name="Deobar Bower Gate, Esouvar Deriel">
     <description>A tall gate rises over a well-kept road.  Ironwood trees gather in patches around the steep city walls, their dark forms casting shadows over the thin brush.  The slender bows and branches that make the thick panels of the gateway into Leth curve and twist, their still-tender bark formed into a living arch by a lifesculptor's hand.</description>
@@ -442,6 +442,7 @@
     <position x="220" y="-220" z="0" />
     <arc exit="southeast" move="southeast" destination="62" />
     <arc exit="northwest" move="northwest" destination="64" />
+    <arc exit="go" move="go whitewashed cottage" destination="273" />
   </node>
   <node id="64" name="Leth Deriel, Elder Bark Circle">
     <description>Sullen Elven lads wield pine-bough brooms and sweep the path perfunctorily.  The platform in the trees along the north bristles with vigilant archers.  Such protection is merited by the presence of eminent scholars from all over Elanthia, who lecture at Izma Ru'ef, Leth Deriel's university.  Truly a seat of higher learning, it is headquartered in the tall sequoia set off from the south side of the road.</description>
@@ -1055,7 +1056,7 @@
   </node>
   <node id="162" name="Morikai's, Salesroom" note="Morikai's|Tannery" color="#FF0000">
     <description>Exceedingly large in size, this hut provides room for storage shelves filled with almost every kind of skin and hide known.  A fresh, almost comforting, scent of leather permeates everything.  A large catalog sits on one end of the counter while an assistant waits to serve your every need.  Fresh sawdust mingles with old, providing a dry and cushioned floor to walk on.  Morikai's Assistant stands beside a hide covered doorway.</description>
-    <position x="-50" y="-200" z="0" />
+    <position x="-60" y="-200" z="0" />
     <arc exit="out" move="out" destination="10" />
     <arc exit="go" move="go doorway" destination="163" />
   </node>
@@ -1730,6 +1731,11 @@
     <position x="-30" y="-25" z="0" />
     <arc exit="west" move="west" destination="248" />
   </node>
+  <node id="273" name="Leth Deriel, The Crafty Cat" note="Repair" color="#00FF00">
+    <description>Long worktables line the whitewashed stone walls, one side of the open room arranged with weapon racks and armor stands, the other hosting a colorful array of partially completed craft projects.  A brick-lined opening in the far wall provides access to a forge, while the main body of the fire pit extends behind the building.  Tall open-beam ceilings rise overhead with vents near the peak, and expansive accordion windows admit ambient light and fresh air.</description>
+    <position x="220" y="-260" z="0" />
+    <arc exit="go" move="go ironwood doorway" destination="63" />
+  </node>
   <label text="to Shard">
     <position x="-90" y="160" z="0" />
   </label>
@@ -1849,5 +1855,8 @@
   </label>
   <label text=" Society">
     <position x="60" y="60" z="0" />
+  </label>
+  <label text="Repair">
+    <position x="200" y="-280" z="0" />
   </label>
 </zone>
