@@ -1731,7 +1731,7 @@
     <position x="-30" y="-25" z="0" />
     <arc exit="west" move="west" destination="248" />
   </node>
-  <node id="273" name="Leth Deriel, The Crafty Cat" color="#FF0000">
+  <node id="273" name="Leth Deriel, The Crafty Cat" note="Repair" color="#00FF00">
     <description>Long worktables line the whitewashed stone walls, one side of the open room arranged with weapon racks and armor stands, the other hosting a colorful array of partially completed craft projects.  A brick-lined opening in the far wall provides access to a forge, while the main body of the fire pit extends behind the building.  Tall open-beam ceilings rise overhead with vents near the peak, and expansive accordion windows admit ambient light and fresh air.</description>
     <position x="220" y="-260" z="0" />
     <arc exit="go" move="go ironwood doorway" destination="63" />
