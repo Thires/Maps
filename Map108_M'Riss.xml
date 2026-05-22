@@ -97,7 +97,7 @@
   </node>
   <node id="12" name="Dunes of Despair, Sand Valley">
     <description>Loose sand occasionally avalanches down the steep incline on one side of the shallow valley, collecting treacherously at the bottom.  A gentle slope rises to the next dune's crest, the combination of shifting sand and desert wind keeping the slope smooth and curved.</description>
-    <position x="220" y="10" z="0" />
+    <position x="230" y="2" z="0" />
     <arc exit="north" move="north" destination="13" />
     <arc exit="southwest" move="southwest" destination="17" />
     <arc exit="south" move="south" hidden="True" destination="17" />
@@ -1432,28 +1432,28 @@
     <arc exit="southwest" move="southwest" destination="208" />
     <arc exit="northwest" move="northwest" destination="206" />
   </node>
-  <node id="208" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="208" name="Fala Inisharon, The Bog Wallows">
     <description>A gnarled cypress, bent into a wooden parody of a giant bowed under a heavy burden, stands in the muddy soil.  The tree even bears something that resembles a wound: a gash has been ripped into the bark along one side.  Beyond it to the west is a large pool of dirty brown water, home to who knows what kind of creatures.</description>
     <position x="-20" y="300" z="0" />
     <arc exit="northeast" move="northeast" destination="207" />
     <arc exit="west" move="west" destination="209" />
     <arc exit="climb" move="climb cypress" destination="217" />
   </node>
-  <node id="209" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="209" name="Fala Inisharon, The Bog Wallows">
     <description>Scum-covered waters swirl around a moss-shrouded cypress standing in a murky brown pool.  Unknown and unseen inhabitants lurking below the surface stir the water, from which an everpresent fog slowly twists and dances despite the deathly still air.  Rumors say the fog holds the spirits of the fallen, forever trapped in the mist.</description>
     <position x="-60" y="300" z="0" />
     <arc exit="east" move="east" destination="208" />
     <arc exit="northwest" move="northwest" destination="210" />
     <arc exit="climb" move="climb cypress" destination="219" />
   </node>
-  <node id="210" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="210" name="Fala Inisharon, The Bog Wallows">
     <description>The water deepens, making the footing even more uncertain in front of a large cypress tree slowly being strangled by greyish-green vines with big, plate-sized leaves.  The vines drape the tree like a shroud and will eventually pull it down, but for the creature that climbs the tree, they offer a secure handhold, almost as good as a ladder.</description>
     <position x="-80" y="280" z="0" />
     <arc exit="southeast" move="southeast" destination="209" />
     <arc exit="southwest" move="southwest" destination="211" />
     <arc exit="climb" move="climb vine" destination="223" />
   </node>
-  <node id="211" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="211" name="Fala Inisharon, The Bog Wallows">
     <description>From the west comes the noise of rushing water -- no small stream, by the sound of it.  Here, in the midst of a thicket of alder and willow trees, the water is still and knee-deep in some places, but a path can be traced by stepping carefully across the roots of the trees.</description>
     <description>From the west comes the noise of rushing water -- no small stream, by the sound of it.  Here, in the midst of a thicket of alder and willow trees, the water is still and knee-deep in some places, but a path can be traced by stepping carefully across the roots of the trees.  A shaft of sunlight flashes a reflection from something at the base of a willow.</description>
     <position x="-100" y="300" z="0" />
@@ -1469,27 +1469,27 @@
     <arc exit="go" move="go log" destination="230" />
     <arc exit="go" move="go path" destination="265" />
   </node>
-  <node id="213" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="213" name="Fala Inisharon, The Bog Wallows">
     <description>A rocky outcropping like a tilted tabletop stretches far to the north to a jagged peak jutting into the sky.  Through the ravelthorn bushes to the south and west comes the continuous roaring of the Altanen River.</description>
     <description>A rocky outcropping like a tilted tabletop stretches far to the north to a jagged peak jutting into the sky.  Through the ravelthorn bushes to the south and west comes the flash of sunbeams on the Altanen River.</description>
     <position x="-120" y="280" z="0" />
     <arc exit="northeast" move="northeast" destination="214" />
     <arc exit="southwest" move="southwest" destination="212" />
   </node>
-  <node id="214" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="214" name="Fala Inisharon, The Bog Wallows">
     <description>On the crest of a slight rise a massive white oak towers into the sky, a stalwart sentinel.  The ground around the base of the tree is littered with empty acorn caps.  A few slender oak saplings find purchase here and stretch to the sky but are hard pressed to find sunlight in the shade of the behemoth above them.</description>
     <position x="-100" y="260" z="0" />
     <arc exit="east" move="east" destination="215" />
     <arc exit="southwest" move="southwest" destination="213" />
     <arc exit="climb" move="climb oak" destination="303" />
   </node>
-  <node id="215" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="215" name="Fala Inisharon, The Bog Wallows">
     <description>The trail winds between the marsh and the rocky slopes of the Forlorn Hope -- the fabled mountain, Galduta Isharon, visible to the northwest through breaks in the tress.  The stench of decay hangs over the murky brown water lapping along the edge of the path.</description>
     <position x="-80" y="260" z="0" />
     <arc exit="northeast" move="northeast" destination="216" />
     <arc exit="west" move="west" destination="214" />
   </node>
-  <node id="216" name="Fala Inisharon, The Bog Wallows" color="#808080">
+  <node id="216" name="Fala Inisharon, The Bog Wallows">
     <description>The ground is soft underfoot, making a liquid sucking sound with every step.  A discarded boot, now a permanent resident, is lodged nearby, half submerged in the mire.  The surrounding woods are full of the buzz and chitter of insects, and every so often comes a rustling in the brush or something like a muffled footfall.</description>
     <description>The ground is soft underfoot, making a liquid sucking sound with every step.  A discarded boot, now a permanent resident, is lodged nearby, half submerged in the mire.  The surrounding woods are full of birdsong, and every so often comes a rustling in the brush or something like a muffled footfall.</description>
     <position x="-60" y="240" z="0" />
@@ -1873,7 +1873,7 @@
     <arc exit="south" move="south" destination="261" />
     <arc exit="go" move="go river" destination="247" />
   </node>
-  <node id="264" name="The Island, A Hunter's Shelter" note="Shelter" color="#C0C0C0">
+  <node id="264" name="The Island, A Hunter's Shelter" note="shelter" color="#00FF00">
     <description>Some thoughtful soul has dragged driftwood into a crude shelter and stuffed the larger holes with weeds.  How well it keeps out the rain is anyone's guess, but it offers more protection than anywhere else on the island.</description>
     <position x="-340" y="440" z="0" />
     <arc exit="out" move="out" destination="258" />
@@ -1942,7 +1942,7 @@
     <arc exit="east" move="east" destination="273" />
     <arc exit="up" move="up" destination="277" />
   </node>
-  <node id="275" name="Galduta Isharon, The Outcropping" note="Boulder" color="#C0C0C0">
+  <node id="275" name="Galduta Isharon, The Outcropping" note="boulder" color="#FFBF00">
     <description>Over the millennia, the outcropping has bowed to its only master, nature: the wind has filled cracks in the rock with bits of silt and mulch from the bogs.  The result is a mottled harmony of bare granite and scrub brush determined to seize life on the barren rocks.  The only flaw in this example of nature's irrestible will is a patch of rusty soil at the base of one boulder, as if over the ages the elements, angry at the affront, had ground something metal under vengeful feet.</description>
     <position x="-180" y="140" z="0" />
     <arc exit="northeast" move="northeast" destination="276" />
@@ -2172,7 +2172,7 @@
   </node>
   <node id="312" name="Fold with Care, Main Room" note="origami" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-320" y="720" z="0" />
+    <position x="-330" y="732" z="0" />
     <arc exit="north" move="north" destination="314" />
     <arc exit="northeast" move="northeast" destination="315" />
     <arc exit="east" move="east" destination="316" />
@@ -2182,20 +2182,20 @@
   </node>
   <node id="313" name="Fold with Care, Metallic Papers" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-340" y="700" z="0" />
+    <position x="-350" y="712" z="0" />
     <arc exit="east" move="east" destination="314" />
     <arc exit="southeast" move="southeast" destination="312" />
   </node>
   <node id="314" name="Fold with Care, Patterned Papers" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-320" y="700" z="0" />
+    <position x="-330" y="712" z="0" />
     <arc exit="east" move="east" destination="315" />
     <arc exit="south" move="south" destination="312" />
     <arc exit="west" move="west" destination="313" />
   </node>
   <node id="315" name="Fold with Care, Dyed Papers" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-300" y="700" z="0" />
+    <position x="-310" y="712" z="0" />
     <arc exit="east" move="east" destination="318" />
     <arc exit="south" move="south" destination="316" />
     <arc exit="southwest" move="southwest" destination="312" />
@@ -2203,34 +2203,34 @@
   </node>
   <node id="316" name="Fold with Care, Dyed Papers" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-300" y="720" z="0" />
+    <position x="-310" y="732" z="0" />
     <arc exit="north" move="north" destination="315" />
     <arc exit="south" move="south" destination="317" />
     <arc exit="west" move="west" destination="312" />
   </node>
   <node id="317" name="Fold with Care, Dyed Papers" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-300" y="740" z="0" />
+    <position x="-310" y="752" z="0" />
     <arc exit="north" move="north" destination="316" />
     <arc exit="east" move="east" destination="319" />
     <arc exit="northwest" move="northwest" destination="312" />
   </node>
   <node id="318" name="Fold with Care, Multi-Colored Envelopes" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-280" y="700" z="0" />
+    <position x="-290" y="712" z="0" />
     <arc exit="south" move="south" destination="319" />
     <arc exit="west" move="west" destination="315" />
   </node>
   <node id="319" name="Fold with Care, Blue and Green Envelopes" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-280" y="740" z="0" />
+    <position x="-290" y="752" z="0" />
     <arc exit="north" move="north" destination="318" />
     <arc exit="south" move="south" destination="320" />
     <arc exit="west" move="west" destination="317" />
   </node>
   <node id="320" name="Fold with Care, Red and Plain Envelopes" color="#FF0000">
     <description>Precious little adornment graces this hastily erected tent.  A lamp hanging from the central post provides light and a ratty old rug keeps the dirt off the customer's feet.  The tent walls have a scattering of diagrams pinned to them, each a charcoal rendition of origami fold techniques.</description>
-    <position x="-280" y="760" z="0" />
+    <position x="-290" y="772" z="0" />
     <arc exit="north" move="north" destination="319" />
   </node>
   <node id="321" name="Fever Point Pier, Upper Cross-bracing">
@@ -3126,7 +3126,7 @@
     <position x="170" y="262" z="0" />
   </label>
   <label text="Hidisharon Desert">
-    <position x="120" y="-160" z="0" />
+    <position x="80" y="-368" z="0" />
   </label>
   <label text="Armadillos">
     <position x="-80" y="-40" z="0" />
@@ -3180,7 +3180,7 @@
     <position x="-148" y="459" z="0" />
   </label>
   <label text="Origami Shop">
-    <position x="-340" y="680" z="0" />
+    <position x="-350" y="692" z="0" />
   </label>
   <label text="Gem Shop">
     <position x="-460" y="680" z="0" />
@@ -3253,5 +3253,8 @@
   </label>
   <label text="Cove">
     <position x="240" y="414" z="0" />
+  </label>
+  <label text="Shelter">
+    <position x="-370" y="422" z="0" />
   </label>
 </zone>
